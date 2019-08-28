@@ -1,0 +1,1 @@
+﻿Get-Process | Sort-Object Name | Format-Table -Property Name,ID,@{n='VM(MB)'; e={$_.VM / 1MB}; formatString='N2';} -AutoSize
