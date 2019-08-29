@@ -33,4 +33,6 @@ function Get-EventLogCustom {
 
 
 # https://docs.microsoft.com/en-us/dotnet/api/system.net.ipaddress?view=netframework-4.8
+# Erzeugt ein IP-Adressen-Objekt
+# $ipadresse.ToString() oder $ipadresse.IPAddressToString gibt die eigentliche IP als String wieder aus
 $ipadresse = [ipaddress]'192.168.252.26'
